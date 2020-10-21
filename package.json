@@ -4,6 +4,7 @@
   "description": "formularz",
   "main": "index.js",
   "scripts": {
+    "start": "npm install && webpack-dev-server --host 0.0.0.0 --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/artjuzwik/lottomerkury/issues"
   },
-  "homepage": "https://github.com/artjuzwik/lottomerkury#readme"
+  "homepage": "https://github.com/artjuzwik/lottomerkury#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "vue": "^2.6.12",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.1.0"
+  }
 }
